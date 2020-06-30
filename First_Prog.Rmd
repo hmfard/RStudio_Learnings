@@ -25,6 +25,7 @@ fzero <- function(func, initial = c(0,1)){
   return((a+b)/2);
 }
 print(fzero(func=function(x) exp(x)-2))
+plot(x <- seq(-2,1,len=1000),exp(x/2),type="o",col="blue")
 ```
 
 ## Including Plots
